@@ -1,0 +1,17 @@
+<div id="wrapper">
+    <div id="header">
+      <h1>GS KART</h1>
+      <button class="login_head" mat-button [matMenuTriggerFor]="menu">Login</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item class="action_btn" [routerLink]="['adminlogin']">Admin</button>
+        <button mat-menu-item class="action_btn" [routerLink]="['institutelogin']">Customber</button>
+      </mat-menu>
+    </div>
+    <div id="main">
+      <h2 class="large_text">Welcome To GS KART</h2>
+    </div>
+    <div id="footer">
+      <span>Developed By Green Soft</span>
+      <span>Version 1.0</span>
+    </div>
+  </div>
