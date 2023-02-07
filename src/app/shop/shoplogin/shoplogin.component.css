@@ -39,9 +39,6 @@ h1 {
 .action_btn:hover {
     background-color: #5a74ad;
 }
-.eyes{
-    margin-top: 24px;
-}
 
 #main {
     width: 100%;
@@ -183,4 +180,7 @@ span {
 .cdk-text-field-autofill-monitored:not(:-webkit-autofill) {
     animation: cdk-text-field-autofill-end 0s 1ms;
     margin-left: 26px;
+}
+.eyes{
+    margin-top: 24px;
 }

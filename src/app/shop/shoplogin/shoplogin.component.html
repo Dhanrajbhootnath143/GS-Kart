@@ -1,21 +1,22 @@
 <div id="wrapper">
     <div id="header">
         <h1>GS KART</h1>
-        
-        <button class="login_head" mat-button [matMenuTriggerFor]="menu">Admin Login</button>
-        <mat-menu #menu="matMenu">
-            <button mat-menu-item class="action_btn" routerLink="/adminlogin">Admin</button>
-            <button mat-menu-item class="action_btn" routerLink="/shop-login">shop-login</button>
-            <button mat-menu-item class="action_btn" routerLink="/customber-login">customber-login</button>
 
-        </mat-menu>
+            <button class="login_head" mat-button [matMenuTriggerFor]="menu">Shop Login</button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item class="action_btn" routerLink="/adminlogin">Admin</button>
+                <button mat-menu-item class="action_btn" routerLink="/shop-login">shop-login</button>
+                <button mat-menu-item class="action_btn" routerLink="/customber-login">customber-login</button>
+
+            </mat-menu>
+
 
     </div>
     <div id="main">
 
         <mat-card class="example-card">
             <mat-card-header>
-                <span>Admin Login</span>
+                <span>Shop Login</span>
             </mat-card-header>
             <mat-icon id="login_icon">account_circle</mat-icon>
             <mat-card-content>
@@ -38,7 +39,7 @@
                 <p>Forgot Password</p>
             </mat-card-content>
             <button mat-button class="action_login" mat-raised-button color="primary"
-                routerLink="/adminhome">Login</button>
+                routerLink="/customber-home">Login</button>
             <!-- <p class="new_account" (click)="new_account()">Create new Account</p> -->
 
         </mat-card>

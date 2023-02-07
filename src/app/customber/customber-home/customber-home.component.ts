@@ -3,11 +3,11 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
-  selector: 'app-adminhome',
-  templateUrl: './adminhome.component.html',
-  styleUrls: ['./adminhome.component.css']
+  selector: 'app-customber-home',
+  templateUrl: './customber-home.component.html',
+  styleUrls: ['./customber-home.component.css']
 })
-export class AdminhomeComponent implements OnInit {
+export class CustomberHomeComponent implements OnInit {
 
   name: any;
   opened:boolean= true
@@ -31,3 +31,4 @@ export class AdminhomeComponent implements OnInit {
   }
 
 }
+

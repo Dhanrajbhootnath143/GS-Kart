@@ -1,13 +1,13 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
 import { BreakpointObserver } from '@angular/cdk/layout';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
-  selector: 'app-adminhome',
-  templateUrl: './adminhome.component.html',
-  styleUrls: ['./adminhome.component.css']
+  selector: 'app-shop-home',
+  templateUrl: './shop-home.component.html',
+  styleUrls: ['./shop-home.component.css']
 })
-export class AdminhomeComponent implements OnInit {
+export class ShopHomeComponent implements OnInit {
 
   name: any;
   opened:boolean= true
@@ -31,3 +31,4 @@ export class AdminhomeComponent implements OnInit {
   }
 
 }
+

@@ -27,6 +27,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './admin/admin.component';
 import { AdminloginComponent } from './admin/adminlogin/adminlogin.component';
 import { AdminhomeComponent } from './admin/adminhome/adminhome.component';
+import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.component';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import { CustomberComponent } from './customber/customber.component';
+import { CustomberLoginComponent } from './customber/customber-login/customber-login.component';
+import { CustomberHomeComponent } from './customber/customber-home/customber-home.component';
+import { CustomberSidebarComponent } from './customber/customber-sidebar/customber-sidebar.component';
+import { CustomberDashboardComponent } from './customber/customber-dashboard/customber-dashboard.component';
+import { ShopComponent } from './shop/shop.component';
+import { ShoploginComponent } from './shop/shoplogin/shoplogin.component';
+import { ShopHomeComponent } from './shop/shop-home/shop-home.component';
+import { ShopDashboardComponent } from './shop/shop-dashboard/shop-dashboard.component';
+import { ShopSidebarComponent } from './shop/shop-sidebar/shop-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +46,19 @@ import { AdminhomeComponent } from './admin/adminhome/adminhome.component';
     HomepageComponent,
     AdminComponent,
     AdminloginComponent,
-    AdminhomeComponent
+    AdminhomeComponent,
+    AdminSidebarComponent,
+    AdminDashboardComponent,
+    CustomberComponent,
+    CustomberLoginComponent,
+    CustomberHomeComponent,
+    CustomberSidebarComponent,
+    CustomberDashboardComponent,
+    ShopComponent,
+    ShoploginComponent,
+    ShopHomeComponent,
+    ShopDashboardComponent,
+    ShopSidebarComponent
   ],
   imports: [
     BrowserModule,
